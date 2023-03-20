@@ -1,0 +1,19 @@
+var express = require("express");
+const app = express();
+const path = require("path");
+//primero declaramos las contates para llamar express y la app//
+//configuraciones//
+app.set("puerto",3000);
+app.set("views","C:/Users/carlo/OneDrive/Escritorio/paginaweb/src/views","views");
+app.engine("html", require("ejs").renderFile);
+app.set("view engine", "ejs");
+
+app.get("/",(req,res) =>{
+    res.render("index.ejs",{titulo:"Inicio"});
+});
+
+app.use(express.static("C:/Users/carlo/OneDrive/Escritorio/paginaweb/src/public"));
+
+app.listen(process.env.PORT || app.get("puerto"), ()=>{
+    console.log("Servidor web trabajando en el puerto", app.get("puerto"));  
+})
