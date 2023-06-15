@@ -1,0 +1,28 @@
+:root {
+  --font-family: "arial";
+  --font-family-title: "Source Sans Pro";
+  --font-input: 300;
+  --font-size-nav: 12pt;
+  --font-size-logo: 28px;
+  --font-size-card-title: 28px;
+  --font-size-input-label: 20px;
+  --font-size-button: 22px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 22px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-button: 28px;
+
+  --primary-color: #02132c;
+  --secundary-color: #59e3c5;
+  --contrast-color: #06203f;
+  --white: #ffff;
+  --info-color: #b2b3b7;
+  --transparency-color: #4d4d4d33;
+  --shadow: 0 7px 7px #000000;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --font-size-logo: 56px;
+  }
+}

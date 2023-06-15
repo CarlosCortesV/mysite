@@ -1,0 +1,116 @@
+@import url(_reset.css);
+@import url(_variables.css);
+/* general */
+body {
+  background-color: var(--primary-color);
+  color: var(--info-color);
+  font-family: var(--font-family);
+  overflow-x: hidden;
+  margin: 0 48px;
+}
+
+
+
+/* header */
+.navbar-nav{
+  padding-left: 60px;
+}
+.nav-link{
+  color: var(--info-color);
+  padding-right:60px !important;
+  font-size: var(--font-size-nav);
+  font-family: var(--font-family-title)
+}
+#navbarNavAltMarkup{
+  justify-content: space-between;
+}
+
+/* Content */
+.landing-page{
+  display: flex;
+}
+.presentacion{
+  width: 45vw;
+}
+.proyectos_destacados{
+  width: 55vw;
+}
+.Hola{
+  font-size: 150pt;
+  font-weight: bold;
+}
+.sobre-mi{
+  display: flex;
+}
+.seccion-fotografia{
+  display: flex;
+  justify-content: center;
+  width: 45vw;
+}
+.descripcion-perfil{
+  width: 55vw;
+}
+.foto{
+  
+  width: 350px;
+  height: 350px;
+  
+}
+.foto>img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 42px;
+}
+.proyecto{
+  display: flex;
+}
+.proyectos-destacados{
+  margin-top: 200px;
+}
+.imagen-proyecto > img{
+  width: 650px;
+  height: 300px;
+}
+.algunos-proyectos{
+  text-align: center;
+}
+.descripcion-proyectos{
+  text-align: center;
+  margin-bottom: 90px;
+}
+.content-mas-proyectos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.title-descriptionform{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.footer{
+  margin: 0 0 !important;
+  padding: 0 0  !important;
+}
+/* Form */
+.card-body-form{
+  display: flex;
+}
+
+/* media */
+@media (min-width: 800px) {
+  .container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: calc((100vw - 900px) / 2);
+    padding-right: calc((100vw - 900px) / 2);
+  }
+}

@@ -11,6 +11,17 @@ app.set("view engine", "ejs");
 app.get("/",(req,res) =>{
     res.render("index.ejs",{titulo:"Inicio"});
 });
+app.get("/proyectos",(req,res) =>{
+    res.render("proyectos.ejs",{titulo:"Proyectos"});
+});
+app.get("/blog",(req,res) =>{
+    res.render("blog.ejs",{titulo:"Blog"});
+});
+app.get("/contacto",(req,res) =>{
+    res.render("contacto.ejs",{titulo:"Contacto"});
+});
+
+
 
 app.use(express.static("C:/Users/carlo/OneDrive/Escritorio/paginaweb/src/public"));
 
