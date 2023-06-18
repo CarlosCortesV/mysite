@@ -23,7 +23,7 @@ app.get("/contacto",(req,res) =>{
 });
 
 
-app.use(express.static("C:/Users/carlo/OneDrive/Escritorio/paginaweb/src/public"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(process.env.PORT || app.get("puerto"), ()=>{
     console.log("Servidor web trabajando en el puerto", app.get("puerto"));  
