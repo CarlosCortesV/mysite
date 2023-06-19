@@ -1,6 +1,6 @@
 :root {
   --font-family: "arial";
-  --font-family-title: "Source Sans Pro";
+  --font-family-title: 'Source Sans 3', sans-serif;
   --font-input: 300;
   --font-size-nav: 12pt;
   --font-size-logo: 28px;
@@ -19,6 +19,7 @@
   --info-color: #b2b3b7;
   --transparency-color: #4d4d4d33;
   --shadow: 0 7px 7px #000000;
+  --portafolio:#D0F4EB;
 }
 
 @media (min-width: 800px) {

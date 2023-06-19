@@ -1,0 +1,101 @@
+.landing-page{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25vh;
+    margin-top: 6vh;
+}
+
+
+/* Content */
+
+/* Sección 1 */
+.presentacion{
+    width: 45vw;
+    max-width: 45vw;
+   
+  }
+
+.Hola{
+    font-family: var(--font-family-title);
+    font-size: 120px;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+.Hola_a{
+    color: var(--secundary-color);       
+}
+.descripcion-corta{
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 18px 0px 18px 0px;
+    line-height: 22pt;
+
+}
+.inicio{
+    border: 2px solid var(--secundary-color);
+    border-radius: 5px;
+    width: 144px;
+    height: 48px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+    color: var(--secundary-color);
+}
+
+
+/* Sección 2 */
+  .proyectos_destacados{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 55vw;
+    max-width: 55vw;
+  }
+
+
+.row-content{
+    justify-content: center;
+}
+.col:nth-child(1){
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.col:nth-child(3){
+    margin-right: 15px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    /*Centrarhorizontalmente*/
+    align-items: center;
+    /*Centrarverticalmente*/
+    width: 24.5vw;
+    height: 23vh;
+    background-color:var(--portafolio) ;
+    border: 1pt solid var(--secundary-color);
+    box-shadow: 14px 12px 31px -2px #02132C;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.col > img{
+    width: 60%;
+    height: auto;
+    
+}
+.conocer-mas{
+    margin-top: 20px;
+    padding-left: 0.5vw;
+    color: var(--white);
+    font-family: var(--font-family-title);
+}
+.portafolio-mas{
+    color: var(--secundary-color);
+}
