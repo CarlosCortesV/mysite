@@ -104,10 +104,16 @@
 @media (max-width: 600px) {
     .col:nth-child(1){
         margin-right: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 5px;
     
     }
     .col:nth-child(3){
         margin-right: 0px;
+    }
+    .col{
+        margin-bottom: 5px;
+    }
+    .Hola{
+        font-size: 70px;
     }
   }
