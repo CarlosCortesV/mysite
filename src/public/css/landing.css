@@ -99,3 +99,15 @@
 .portafolio-mas{
     color: var(--secundary-color);
 }
+
+
+@media (max-width: 600px) {
+    .col:nth-child(1){
+        margin-right: 0px;
+        margin-bottom: 0px;
+    
+    }
+    .col:nth-child(3){
+        margin-right: 0px;
+    }
+  }

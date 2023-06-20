@@ -52,6 +52,12 @@
   position: relative;
   width: 350px;
   height: 350px;
+  border-radius: 12px;
+  box-shadow: 14px 10px 28px -5px #59E3C5;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 .foto>img{
   object-fit: cover;
