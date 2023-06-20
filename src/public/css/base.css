@@ -66,4 +66,8 @@ a:hover{
     padding-left: calc((100vw - 900px) / 2);
     padding-right: calc((100vw - 900px) / 2);
   }
+  .imagen-proyecto > img{
+    width: 55vw;
+    height: 70vh;
+  }
 }
