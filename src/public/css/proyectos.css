@@ -1,0 +1,6 @@
+.imagen-proyecto{
+    width: 50vw;
+}
+.imagen-proyecto > img{
+    width: 200px;
+}
