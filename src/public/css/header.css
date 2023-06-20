@@ -1,0 +1,29 @@
+/* header */
+.container-fluid{
+    padding: 0;
+  }
+  .navbar-nav{
+    padding-left: 60px;
+  }
+  .nav-link{
+    color: var(--white);
+    padding-right:60px !important;
+    font-size: var(--font-size-nav);
+    font-family: var(--font-family-title)
+  }
+  .nav-link:hover{
+    color: var(--secundary-color);
+  }
+  
+  #navbarNavAltMarkup{
+    justify-content: space-between;
+  }
+  .proyectos-nav{
+    color: var(--secundary-color);
+  }
+  .navbar-social >a > img{
+    padding-right: 10px;
+  }
+  .instagram-nav{
+    padding: 0px !important;
+  }

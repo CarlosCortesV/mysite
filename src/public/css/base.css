@@ -18,68 +18,12 @@ a:hover{
   text-decoration: none;
   color: var(--white);
 }
-/* header */
-.container-fluid{
-  padding: 0;
-}
-.navbar-nav{
-  padding-left: 60px;
-}
-.nav-link{
-  color: var(--white);
-  padding-right:60px !important;
-  font-size: var(--font-size-nav);
-  font-family: var(--font-family-title)
-}
-.nav-link:hover{
-  color: var(--secundary-color);
-}
 
-#navbarNavAltMarkup{
-  justify-content: space-between;
-}
-.proyectos-nav{
-  color: var(--secundary-color);
-}
-.navbar-social >a > img{
-  padding-right: 10px;
-}
-.instagram-nav{
-  padding: 0px !important;
-}
-
-.sobre-mi{
-  display: flex;
-}
-.seccion-fotografia{
-  display: flex;
-  justify-content: center;
-  width: 45vw;
-}
-.descripcion-perfil{
-  width: 55vw;
-}
-.foto{
-  
-  width: 350px;
-  height: 350px;
-  
-}
-.foto>img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.skills{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 42px;
-}
 .proyecto{
   display: flex;
 }
 .proyectos-destacados{
-  margin-top: 200px;
+  margin-top: 10vh;
 }
 .imagen-proyecto > img{
   width: 650px;

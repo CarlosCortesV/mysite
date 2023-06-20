@@ -1,0 +1,123 @@
+.sobre-mi{
+  display: flex;
+  max-width: 100%;
+}
+.seccion-fotografia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.descripcion-perfil{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 45vw;
+  padding-right: 10vw;
+}
+.acercademi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+.acerca{
+    font-family: var(--font-family-title);
+    font-size: 22pt;
+    color: var(--white);
+    
+    
+  }
+.linea {
+    display: flex;
+    align-content: center;
+    width: 50%;
+    height: 2.5px;
+    margin-left: 2%;
+    background-color: var(--secundary-color);
+ 
+}  
+.contenido-perfil{
+  font-family: var(--font-family);
+  text-align: justify;
+  line-height: 22pt;
+}
+.foto{
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+.foto>img{
+  object-fit: cover;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.contenedor-imagen {
+  position: relative;
+  display: inline-block; /* Ajusta el valor según tus necesidades */
+}
+
+.color-superpuesto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 234, 197, 0.22);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.marco{
+  position: relative;
+  top:-61vh;
+  left: 20px;
+  width: 350px;
+  height: 350px;
+  border: 3px solid #59E3C5;
+  z-index: -1;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.algunas-tecnologias{
+    margin-top: 10%;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 42px;
+  list-style: square url(../img/triangulo.svg) inside;
+}
+.skills > li{
+    margin-bottom: 8%;
+    width: auto;
+    white-space: nowrap;
+    color: var(--white);
+}
+.skills > li:nth-child(2){
+    margin-right: 2vw;
+}
+@media (max-width: 600px) {
+    .skills {
+      grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+  }
