@@ -149,4 +149,7 @@
     .imagen-proyecto > img{
         width: 100%;
     }
+    .frias-titulo{
+        font-size: 26px;
+    }
 }
