@@ -113,6 +113,7 @@
 .tecnologias-d{
     text-align: right;
     margin-top: 2%;
+    font-size: 10pt;
 }
 .tecnologias-d-1{
     text-align: left;
@@ -152,4 +153,16 @@
     .frias-titulo{
         font-size: 26px;
     }
+    .cuadro-texto .frias{
+        font-size: 6pt;
+    }
 }
+@media (min-width: 600px) and (max-width: 1200px) {
+    .cuadro-texto{
+        font-size: 7pt;
+        height: 170px;
+    }
+    .imagen-proyecto > img{
+        width: 100%;
+    }
+  }

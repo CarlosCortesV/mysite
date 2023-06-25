@@ -1,0 +1,14 @@
+footer{
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descripcion-footer{
+    margin-bottom: 10vh;
+}
+.copyright{
+    color: var(--white);
+}

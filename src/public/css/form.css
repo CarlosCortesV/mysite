@@ -1,0 +1,74 @@
+.hablemos{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-modal-title);
+    color: var(--secundary-color);
+    margin-bottom: 2vh;
+}
+.linea-hablemos{
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 20vw;
+    background-color: var(--secundary-color);
+    margin-bottom: 5vh;
+}
+.title-descriptionform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+.descripcion-form{
+    text-align:center;
+    padding: 0 16% 0 16%;
+}
+.card-body-form{
+    display: flex;
+    width: 100%;
+  }
+.form-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    padding: 4%;
+    background-color: var(--contrast-color);
+    border-radius: 3% 0 0 3%;
+    -webkit-border-radius: 3% 0 0 3%;
+    -moz-border-radius: 3% 0 0 3%;
+    -ms-border-radius: 3% 0 0 3%;
+    -o-border-radius: 3% 0 0 3%;
+    
+}
+.inputs-form{
+    width: 70%;
+    padding: 4%;
+    background-color: var(--white);
+    border-radius: 0 3% 3% 0;
+    -webkit-border-radius: 0 3% 3% 0;
+    -moz-border-radius: 0 3% 3% 0;
+    -ms-border-radius: 0 3% 3% 0;
+    -o-border-radius: 0 3% 3% 0;
+}
+.imagen-social{
+    display: flex;
+    justify-content: center;
+}
+.navbar-social-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-group > label{
+    color: var(--font-color-label);
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
+.form-control::placeholder{
+    color: var(--info-color);
+}
+.botonformulario{
+    width: 30%;
+    background-color: var(--primary-color);
+    font-weight: 600;
+}

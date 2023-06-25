@@ -102,6 +102,11 @@
 
 
 @media (max-width: 600px) {
+    .col{
+        flex-direction: row;
+        width: 18vw;
+        height: 16vw;
+    }
     .col:nth-child(1){
         margin-right: 0px;
         margin-bottom: 5px;

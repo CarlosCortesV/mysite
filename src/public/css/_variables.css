@@ -9,7 +9,7 @@
   --font-size-button: 22px;
   --font-size-form-fieldset: 22px;
   --font-size-table-header: 22px;
-  --font-size-modal-title: 28px;
+  --font-size-modal-title: 40pt;
   --font-size-modal-button: 28px;
 
   --primary-color: #02132c;
@@ -21,6 +21,8 @@
   --shadow: 0 7px 7px #000000;
   --portafolio:#D0F4EB;
   --cuadro-texto: #06203F;
+  --font-color-label:#6b6b6b;
+  --footer-contrans: #021123;
 }
 
 @media (min-width: 800px) {

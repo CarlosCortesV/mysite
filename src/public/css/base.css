@@ -21,23 +21,8 @@ a:hover{
 
 
 
-
-.content-mas-proyectos{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.title-descriptionform{
-  text-align: center;
-  margin-bottom: 80px;
-}
-.footer{
-  margin: 0 0 !important;
-  padding: 0 0  !important;
-}
 /* Form */
-.card-body-form{
-  display: flex;
-}
+
 
 /* media */
 @media (min-width: 800px) {

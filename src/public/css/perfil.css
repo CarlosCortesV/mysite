@@ -126,12 +126,18 @@
 }
 @media (max-width: 600px) {
     .skills {
-      grid-template-columns: 1fr; /* Cambia a una sola columna */
+      grid-template-columns: 1fr 1fr; /* Cambia a una sola columna */
+      height: 50%;
+      font-size: 8pt;
     }
     .foto{
         width: 35vw;
     }
     .descripcion-perfil{
         padding-right: 0vw;
+    }
+    .contenido-perfil{
+      font-size: 10pt;
+      line-height: 15pt;
     }
 }
