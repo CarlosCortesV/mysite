@@ -41,7 +41,7 @@
     justify-content: center;
     max-width: 50%;
 }
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 600px) and (max-width: 1000px) {
     .algunos-proyectos{
         font-size: 15pt;
     }

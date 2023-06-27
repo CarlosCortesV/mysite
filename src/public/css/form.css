@@ -25,11 +25,13 @@
 }
 .card-body-form{
     display: flex;
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
 .form-social{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     width: 30%;
     padding: 4%;
@@ -53,11 +55,18 @@
 }
 .imagen-social{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
 .navbar-social-form{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+}
+.navbar-social-form > img{
+    width: 20%;
+    height: auto;
 }
 .form-group > label{
     color: var(--font-color-label);
@@ -68,7 +77,39 @@
     color: var(--info-color);
 }
 .botonformulario{
-    width: 30%;
+    width: 10vw;
     background-color: var(--primary-color);
     font-weight: 600;
+}
+textarea.form-control{
+    height: 150px;
+}
+
+@media (max-width: 600px) {
+    .descripcion-form{
+        padding: 0 6% 0 6%;
+    }
+    .form-social{
+        align-items: center;
+        border-radius: 2% 0 0 2%;
+        -webkit-border-radius: 2% 0 0 2%;
+        -moz-border-radius: 2% 0 0 2%;
+        -ms-border-radius: 2% 0 0 2%;
+        -o-border-radius: 2% 0 0 2%;
+    }
+    .imagen-social{
+        width: 80%;
+    }
+    .navbar-social-form{
+        width: 100%;
+    }
+    .navbar-social-form >img{
+        width: 25%;
+    }
+    textarea.form-control{
+        height: 150px;
+    }
+    .botonformulario{
+        width: 20vw;
+    }
 }

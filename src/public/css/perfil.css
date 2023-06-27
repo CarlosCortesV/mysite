@@ -116,6 +116,7 @@
   list-style: square url(../img/triangulo.svg) inside;
 }
 .skills > li{
+  margin-right: 8px;
     margin-bottom: 8%;
     width: auto;
     white-space: nowrap;
@@ -125,13 +126,25 @@
     margin-right: 2vw;
 }
 @media (max-width: 600px) {
+  .sobre-mi{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-fotografia{
+    margin-bottom: 12vh;
+  }
+  .acercademi{
+    flex-direction: column-reverse;
+  }
     .skills {
       grid-template-columns: 1fr 1fr; /* Cambia a una sola columna */
       height: 50%;
       font-size: 8pt;
     }
     .foto{
-        width: 35vw;
+        width: 40vw;
+        height: 50vh;
     }
     .descripcion-perfil{
         padding-right: 0vw;
@@ -140,4 +153,24 @@
       font-size: 10pt;
       line-height: 15pt;
     }
+}
+@media (max-width: 1000px) {
+  .skills {
+    grid-template-columns: 1fr 1fr; /* Cambia a una sola columna */
+    height: 50%;
+    font-size: 8pt;
+  }
+  .descripcion-perfil{
+    padding-right: 0vw;
+  }
+  .acercademi > .linea{
+    width: 40%;
+  }
+  .acerca{
+    font-size: 20pt;
+  }
+  .foto{
+    width: 35vw;
+    height: 60vh;
+}
 }

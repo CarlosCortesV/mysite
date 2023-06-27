@@ -15,8 +15,8 @@
     justify-items: center;
   }
 .info-proyecto{
-    width: 325px;
-    height: 325px;
+    width: 20rem;
+    height: 20rem;
     padding: 6% 6%;
     box-shadow: 14px 12px 31px -2px black;
     background-color: var(--contrast-color);
@@ -40,6 +40,10 @@
     color: var(--white);
     margin: 4vh 0 5vh 0;
     
+    
+}
+.titulo--masproyectos{
+    text-align: center;
 }
 .parrafo-masproyectos{
     text-align: right;
@@ -65,6 +69,17 @@
     background-color: transparent;
 }
 
+@media (max-width: 1000px) {
+    .content-mas-proyectos{
+        grid-template-columns: 1fr 1fr;
+    }
+    .info-proyecto{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+
 @media (max-width: 600px) {
     .content-mas-proyectos{
         grid-template-columns: 1fr 1fr;
@@ -72,5 +87,8 @@
     .info-proyecto{
         width: 90%;
         height: 90%;
+    }
+    .parrafo-masproyectos{
+        line-height: 6vh;
     }
 }
