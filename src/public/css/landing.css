@@ -100,12 +100,11 @@
     color: var(--secundary-color);
 }
 
-
 @media (max-width: 600px) {
     .col{
         flex-direction: row;
-        width: 18vw;
-        height: 16vw;
+        width: 28vw;
+        height: 26vw;
     }
     .col:nth-child(1){
         margin-right: 0px;
@@ -122,3 +121,22 @@
         font-size: 70px;
     }
   }
+
+@media (min-width: 600px) and (max-width: 1100px){
+    .col{
+        flex-direction: row;
+        width: 18vw;
+        height: 16vw;
+    }
+    .col:nth-child(1){
+        margin-right: 0px;
+        margin-bottom: 5px;
+    
+    }
+    .col:nth-child(3){
+        margin-right: 0px;
+    }
+    .col{
+        margin-bottom: 5px;
+    }
+}

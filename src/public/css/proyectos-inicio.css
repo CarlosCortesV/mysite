@@ -41,7 +41,16 @@
     justify-content: center;
     max-width: 50%;
 }
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (max-width: 600px){
+  .algunos-proyectos{
+    font-size: 18pt;
+  }
+  .descripcion-proyectos{
+    margin-bottom: 8vh;
+    font-size: 7pt;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
     .algunos-proyectos{
         font-size: 15pt;
     }

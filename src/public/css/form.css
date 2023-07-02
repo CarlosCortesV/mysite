@@ -86,8 +86,12 @@ textarea.form-control{
 }
 
 @media (max-width: 600px) {
+    .title-descriptionform{
+        margin-bottom: 15%;
+    }
     .descripcion-form{
-        padding: 0 6% 0 6%;
+        padding: 0 4% 0 4%;
+        font-size: 72%;
     }
     .form-social{
         align-items: center;
@@ -112,4 +116,18 @@ textarea.form-control{
     .botonformulario{
         width: 20vw;
     }
+    .inputs-form{
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    .form-social{
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
 }

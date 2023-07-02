@@ -21,11 +21,40 @@
     display: flex;
     align-items: center;
     width: 50%;
-    height: 200px;
+    height: 250px;
+   
 }
 .imagen-proyecto > img{
     width: 50vw;
     height: 40vh;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.imagen-proyecto.frias{
+    background-color: var(--white);
+    background-image:url(https://carlocortes.up.railway.app/img/Frias-logo.png);
+    background-size:cover;
+    background-position:center;
+    background-size: 60%;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}  
+.imagen-proyecto.oxy{
+    background-color: var(--white);
+    background-image: url(https://carlocortes.up.railway.app/img/Logo_Oxyser.png);
+    background-size:cover;
+    background-position:center;
+    background-size: 80%;
+    background-repeat:no-repeat;
+    object-fit: cover;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -145,24 +174,40 @@
 }
 @media (max-width: 600px) {
     .cuadro-texto{
-        font-size: 7pt;
+        font-size: 5pt;
+    }
+    .imagen-proyecto.frias{
+        background-color: var(--white);
+        background-image: url(https://carlocortes.up.railway.app/img/Frias-logo.png);
+        background-size:cover;
+        background-position:center;
+        background-size: 80%;
+        background-repeat:no-repeat;
+        object-fit: cover;	
     }
     .imagen-proyecto > img{
-        width: 100%;
+        width: 50%;
+     
     }
     .frias-titulo{
         font-size: 26px;
     }
     .cuadro-texto .frias{
-        font-size: 6pt;
+        font-size: 5pt;
+    }
+    .texto-frias{
+        font-size: 5pt;
     }
 }
 @media (min-width: 600px) and (max-width: 1200px) {
     .cuadro-texto{
-        font-size: 7pt;
+        font-size: 9pt;
         height: 170px;
     }
     .imagen-proyecto > img{
         width: 100%;
+    }
+    .texto-frias{
+        font-size: 8pt;
     }
   }
