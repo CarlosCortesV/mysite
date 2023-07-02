@@ -1,0 +1,15 @@
+.mi-portafolio{
+    margin: 10vh 0 7vh 0;
+    font-family: var(--font-family-title);
+    font-size: 40pt;
+    text-align: center;
+    color: var(--secundary-color);
+}
+.texto-portafolio{
+    text-align: center;
+    padding: 0 13vw 0 13vw;
+    margin-bottom: 15vh;
+}
+.proyectos-pagina{
+    margin-bottom: 20vh;
+}

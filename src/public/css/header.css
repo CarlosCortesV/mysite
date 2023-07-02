@@ -27,3 +27,11 @@
   .instagram-nav{
     padding: 0px !important;
   }
+
+  @media (max-width: 600px) {
+    .navbar-toggler-icon{
+      color: var(--white);
+    }
+
+  }
+  
