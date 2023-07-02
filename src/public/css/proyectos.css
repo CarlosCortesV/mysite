@@ -21,18 +21,10 @@
     display: flex;
     align-items: center;
     width: 50%;
-    height: 250px;
-   
+    height: 45vh;
+   margin-bottom: 5vh;
 }
-.imagen-proyecto > img{
-    width: 50vw;
-    height: 40vh;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-}
+
 .imagen-proyecto.frias{
     background-color: var(--white);
     background-image:url(https://carlocortes.up.railway.app/img/Frias-logo.png);
@@ -176,6 +168,7 @@
     .cuadro-texto{
         font-size: 5pt;
     }
+    
     .imagen-proyecto.frias{
         background-color: var(--white);
         background-image: url(https://carlocortes.up.railway.app/img/Frias-logo.png);
@@ -185,12 +178,12 @@
         background-repeat:no-repeat;
         object-fit: cover;	
     }
-    .imagen-proyecto > img{
-        width: 50%;
-     
-    }
-    .frias-titulo{
+
+    .frias-titulo,.Oxyser-titulo,.caoba-titulo{
         font-size: 26px;
+    }
+    .monbelange-titulo{
+        font-size: 24px;
     }
     .cuadro-texto .frias{
         font-size: 5pt;
@@ -203,9 +196,6 @@
     .cuadro-texto{
         font-size: 9pt;
         height: 170px;
-    }
-    .imagen-proyecto > img{
-        width: 100%;
     }
     .texto-frias{
         font-size: 8pt;
