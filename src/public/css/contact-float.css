@@ -8,18 +8,17 @@
     left: 0;
     width: 50px;
 }
-.socialnetworks-item{
-    width: 50%;
+.socialnetworks-item > a > img{
+    width: 70%;
     margin-bottom: 6vh;
 }
-.socialnetworks-item > img{
-    width: 100%;
-}
+
 .linea-vertical{
     display: flex;
     justify-content: center;
     height: 26vh;
     width: 2px;
+    margin-right: 10px;
     background-color: var(--white);
 }
 .email-float{

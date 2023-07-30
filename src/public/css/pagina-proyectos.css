@@ -13,3 +13,18 @@
 .proyectos-pagina{
     margin-bottom: 20vh;
 }
+.boton-proyectos{
+    margin-top: 5vh;
+    background-color: var(--contrast-color);
+}
+.card-title{
+    font-size: var(--font-size-card-title);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.card-text{
+    line-height: 15pt;
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: 500;
+}
