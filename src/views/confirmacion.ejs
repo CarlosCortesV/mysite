@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Correo Enviado</title>
+    <%- include("./partials/head"); %>
 </head>
 <body>
-    <h1>Correo confirmado!</h1>
+    <header>
+        <%- include('./partials/header'); %>
+    </header>
+    <div class="confirmacion">
+        <h1 class="correo-confirmado .scale-up-center">¡Correo confirmado!</h1>
+        <p class="texto-pconfirmación">Gracias por contactarme. He recibido tu mensaje y te respondere a la brevedad posible. Si tienes alguna otra consulta, no dudes en contactarme nuevamente.</p>
+        <div class="botones-pconfirmar">
+            <button class="botones-confirmar"><a href="/proyectos">Portafolio</a></button>
+            <button class="botones-confirmar"><a href="/contacto">¡Contáctame!</a></button>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <%- include('./partials/footer'); %>
+    </footer>
 </body>
 </html>

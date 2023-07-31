@@ -1,0 +1,38 @@
+.confirmacion{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+.correo-confirmado{
+    text-align: center;
+    
+    font-family: var(--font-family-title);
+    color: var(--secundary-color);
+    font-size: 50pt;
+}
+.botones-pconfirmar{
+    margin-top: 8vh;
+}
+.texto-pconfirmación{
+    padding: 20px 10vw 0 10vw;
+    text-align: center;
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.6s steps(2, end) both;
+	        animation: scale-up-center 0.6s steps(2, end) both;
+}
+.botones-confirmar{
+    border: 2px solid var(--secundary-color);
+    border-radius: 5px;
+    width: 144px;
+    height: 48px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+    color: var(--secundary-color);
+    margin: 0 10px 0 10px;
+}
