@@ -55,17 +55,14 @@ app.post("/enviar",(req,res) =>{
           res.status(500).send('Error al enviar el correo electrónico.');
         } else {
           console.log('Correo enviado: ' + info.response);
-          res.redirect('/confirmacion.ejs')
+          res.redirect('/confirmacion')
         }
       });
+
 });
 app.get('/confirmacion', (req, res) => {
-    const { nombre, correo, mensaje } = req.body;
-    
-    // Renderiza la página de confirmación con los datos recibidos
-    res.render('confirmacion', { nombre, correo, mensaje });
-  });
-
+  res.render("confirmacion.ejs",{titulo:"Confirmación"})
+});
 
 
 app.use(express.static(path.join(__dirname, 'public')));
