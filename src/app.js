@@ -55,7 +55,7 @@ app.post("/enviar",(req,res) =>{
           res.status(500).send('Error al enviar el correo electrónico.');
         } else {
           console.log('Correo enviado: ' + info.response);
-          res.send('Correo enviado correctamente.');
+          res.redirect('/confirmacion')
         }
       });
     console.log(req.body);
