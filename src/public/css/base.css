@@ -18,7 +18,9 @@ a:hover{
   text-decoration: none;
   color: var(--white);
 }
-
+.navbar-toggler{
+  background-color: var(--secundary-color);
+}
 
 
 /* Form */

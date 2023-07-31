@@ -134,3 +134,12 @@ textarea.form-control{
         -o-border-radius: 0;
 }
 }
+@media (max-width: 600px) {
+    .card-body-form{
+        width: 100%;
+    }
+    .navbar-social-form >a>img{
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -32,6 +32,16 @@
     .navbar-toggler-icon{
       color: var(--white);
     }
-
+    .navbar-social{
+      display: flex;
+      justify-content: flex-end;
+      
+    }
+    .navbar-social >a > img{
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      margin: 4px;
+    }
   }
   
