@@ -28,3 +28,12 @@
     font-size: 12px;
     font-weight: 500;
 }
+@media (max-width: 600px) {
+    .mi-portafolio{
+        margin: 10vh 0 4vh 0;
+    }
+    .texto-portafolio{
+        padding: 0 6vw 0 6vw;  
+        margin-bottom: 10vh;
+    }
+}

@@ -23,6 +23,7 @@
 .descripcion-form{
     text-align:center;
     padding: 0 16% 0 16%;
+    line-height: 1.2;
 }
 .card-body-form{
     display: flex;
@@ -141,5 +142,17 @@ textarea.form-control{
     .navbar-social-form >a>img{
         width: 20px;
         height: 20px;
+    }
+}
+@media (min-width: 600px) and (max-width: 1100px){
+    .navbar-social-form >a>img{
+        width: 18px;
+        height: 18px;
+    }
+    .imagen-social{
+        width: 90%;
+    }
+    .botonformulario{
+        width: 22vw;
     }
 }
