@@ -1,23 +1,21 @@
-.container {
-    max-width: 600px;
-    margin: 0 auto;
+.proximamente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 40px;
+    margin-bottom: 20vh;
+    margin-top: 15vh;
 }
-
 .proximo {
     font-family: var(--font-family-title);
     font-size: var(--font-size-modal-title);
-    font-weight: bold;
     color: var(--secundary-color);
-    margin-top: 10vh;
+    margin-bottom: 2vh;
 }
 .proximo-descrip{
-    font-family: var(--font-family);
-    font-size: 16px;
-    color: var(--white);
-    margin-top: 20px;
-    margin-bottom: 20vh;
+    text-align:center;
+    padding: 0 16% 0 16%;
+    line-height: 1.2;
 }
 
 
