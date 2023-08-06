@@ -28,7 +28,7 @@ app.get("/contacto",(req,res) =>{
 });
 app.get("/enviar",(req,res) =>{
     
-});
+}); 
 app.post("/enviar",(req,res) =>{
     const { nombre, correo, mensaje } = req.body;
     const transporter = nodemailer.createTransport({
