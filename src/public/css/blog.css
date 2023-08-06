@@ -1,0 +1,27 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.proximo {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-modal-title);
+    font-weight: bold;
+    color: var(--secundary-color);
+    margin-top: 10vh;
+}
+.proximo-descrip{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--white);
+    margin-top: 20px;
+    margin-bottom: 20vh;
+}
+
+
+
+
+
+
